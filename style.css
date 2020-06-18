@@ -44,6 +44,7 @@ li{
     background-position: center;
     border-radius: 1000px;
     margin-top: 150px;
+    border: 5px solid #b19d06;
 }
 .header__intro{
     position: relative;
@@ -388,8 +389,9 @@ li{
 @media (max-width: 600px){
     .header__img img{
         margin-top: 100px;
-        width: 170px;
+        width: 150px;
         height: 250px;
+
     }
     .column{
         width: 30px;margin-right: 20px;
