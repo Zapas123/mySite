@@ -391,7 +391,6 @@ li{
         margin-top: 100px;
         width: 150px;
         height: 250px;
-
     }
     .column{
         width: 30px;margin-right: 20px;
@@ -414,5 +413,19 @@ li{
     .info__text{
         max-width: 100%;
         margin-bottom: 30px;
+    }
+    .sites__title{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .sites__title::after{
+        top: 50px;
+    }
+    .info__title{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .info__title::after{
+        top: 50px;
     }
 }
