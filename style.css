@@ -351,7 +351,12 @@ li{
     color: crimson;
 }
 .info__text a{
+    color: rgb(182, 175, 175);
+}
+.my__contacts{
     color: #fff;
+    text-align: center;
+    margin-top: 20px;
 }
 /* end info */
 
