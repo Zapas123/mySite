@@ -65,12 +65,12 @@ li{
     top: 15px;
 }
 .header__name{
-    font-size: 70px;
     color: rgb(182, 175, 175);
     padding-top: 30px;
 }
 .header__name>span{
     color: #b19d06;
+    font-size: 70px;
 }
 .header__outro{
     font-size: 20px;
@@ -95,13 +95,9 @@ li{
     display: flex;
     justify-content: space-around;
 }
-.header__adress a:hover{
-    color: crimson;
-}
 .header__adress a{
     color: #fff;
 }
-
 
 .skills__inner{
     display: flex;
@@ -129,22 +125,22 @@ li{
     width: 50px;
 }
 .skillblock:first-child .column{
-    background-color: #0cf2f2;
+    background-color: #5b661d;
     height: calc(350px / 100 * 85);
     animation: appFir 2s 1;
 }
 .skillblock:nth-child(2) .column{
-    background-color: #0c23f2;
+    background-color: #5b661d;
     height: calc(350px / 100 * 70);
     animation: appSec 2s 1;
 }
 .skillblock:nth-child(3) .column{
-    background-color: #b50cf2;
+    background-color: #5b661d;
     height: calc(350px / 100 * 65);
     animation: appThi 2s 1;
 }
 .skillblock:last-child .column{
-    background-color: #f20c6c;
+    background-color: #5b661d;
     height: calc(350px / 100 * 90);
     animation: appFou 2s 1;
 }
@@ -367,6 +363,9 @@ li{
         margin-top: 100px;
     }
     .header__name{
+        font-size: 20px;
+    }
+    .header__name span{
         font-size: 50px;
     }
     .header__img img{
@@ -427,5 +426,43 @@ li{
     }
     .info__title::after{
         top: 50px;
+    }
+}
+@media (max-width: 450px){
+    .header__name{
+        font-size: 15px;
+    }
+    .header__name span{
+        font-size: 30px;
+    }
+    .header__intro{
+        font-size: 15px;
+    }
+    .header__intro::after{
+        top: 10px;
+    }
+    .header__outro{
+        font-size: 15px;
+    }
+    .sites__title{
+        font-size: 15px;
+    }
+    .sites__title::after{
+        top: 48px;
+    }
+    .info__title{
+        font-size: 15px;
+    }
+    .info__title::after{
+        top: 48px;
+    }
+    .butt{
+        margin-top: 30px;
+    }
+    .sites__inner{
+        height: 660px;
+    }
+    .sites{
+        height: 770px;
     }
 }
